@@ -1,0 +1,37 @@
+[
+  {
+    "sourceName": "Thailand Macro Master Dataset (2005-2026)",
+    "publisher": "Compiled from World Bank, Bank of Thailand, IMF/ADB, NESDC, NSO",
+    "updateFrequency": "Static research snapshot (annual series, 2025-2026 forecast/preliminary)",
+    "accessMethod": "csv",
+    "reliability": "secondary"
+  },
+  {
+    "sourceName": "Thailand Microeconomic Master Dataset (2005-2025)",
+    "publisher": "Compiled from DBD, OSMEP, OIE, BOT, NSO, UNESCO/World Bank and others",
+    "updateFrequency": "Static research snapshot (annual series)",
+    "accessMethod": "csv",
+    "reliability": "secondary"
+  },
+  {
+    "sourceName": "World Bank Open Data",
+    "publisher": "The World Bank Group",
+    "updateFrequency": "Annual, with periodic revisions",
+    "accessMethod": "api",
+    "reliability": "international"
+  },
+  {
+    "sourceName": "Bank of Thailand (BOT)",
+    "publisher": "Bank of Thailand",
+    "updateFrequency": "Monthly / quarterly statistical releases",
+    "accessMethod": "manual",
+    "reliability": "official"
+  },
+  {
+    "sourceName": "NESDC / NSO / IMF / ADB (compiled)",
+    "publisher": "Various national & international statistical agencies",
+    "updateFrequency": "Varies by series (annual to quarterly)",
+    "accessMethod": "manual",
+    "reliability": "official"
+  }
+]

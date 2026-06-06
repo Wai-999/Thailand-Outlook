@@ -1,0 +1,4364 @@
+{
+  "generatedAt": "2026-06-06T19:28:44.439Z",
+  "sourceFile": "thailand_microeconomic_2005_2025 - Master Dataset.csv",
+  "sourceName": "Thailand Microeconomic Master Dataset (2005-2025)",
+  "isDemo": false,
+  "sectors": [
+    "Business Environment",
+    "Consumer Market",
+    "Financial Access",
+    "Industrial Production",
+    "Investment & Capital",
+    "Labor Market",
+    "Prices & Costs",
+    "Real Estate & Urban",
+    "Technology & Digital"
+  ],
+  "indicators": [
+    {
+      "code": "business_environment_number_of_new_business_registrations_thousands",
+      "name": "Number of new business registrations (thousands)",
+      "unit": "Thousands",
+      "sector": "Business Environment"
+    },
+    {
+      "code": "business_environment_rd_expenditure_gdp",
+      "name": "R&D expenditure (% GDP)",
+      "unit": "% of GDP",
+      "sector": "Business Environment"
+    },
+    {
+      "code": "business_environment_sme_employment_share_total_employment",
+      "name": "SME employment share (% total employment)",
+      "unit": "% of Employment",
+      "sector": "Business Environment"
+    },
+    {
+      "code": "business_environment_sme_share_of_gdp",
+      "name": "SME share of GDP (%)",
+      "unit": "% of GDP",
+      "sector": "Business Environment"
+    },
+    {
+      "code": "consumer_market_consumer_confidence_index",
+      "name": "Consumer confidence index",
+      "unit": "Index",
+      "sector": "Consumer Market"
+    },
+    {
+      "code": "consumer_market_domestic_car_sales_thousands",
+      "name": "Domestic car sales (thousands)",
+      "unit": "Thousand Units",
+      "sector": "Consumer Market"
+    },
+    {
+      "code": "consumer_market_household_consumption_of_gdp",
+      "name": "Household consumption (% of GDP)",
+      "unit": "% of GDP",
+      "sector": "Consumer Market"
+    },
+    {
+      "code": "consumer_market_household_consumption_usd_bn",
+      "name": "Household consumption (USD bn)",
+      "unit": "USD Billion",
+      "sector": "Consumer Market"
+    },
+    {
+      "code": "consumer_market_household_consumption_growth",
+      "name": "Household consumption growth (%)",
+      "unit": "% Annual",
+      "sector": "Consumer Market"
+    },
+    {
+      "code": "consumer_market_retail_sales_growth",
+      "name": "Retail sales growth (%)",
+      "unit": "% Annual",
+      "sector": "Consumer Market"
+    },
+    {
+      "code": "financial_access_bank_account_ownership_age_15",
+      "name": "Bank account ownership (% age 15+)",
+      "unit": "% Population 15+",
+      "sector": "Financial Access"
+    },
+    {
+      "code": "financial_access_domestic_credit_to_private_sector_gdp",
+      "name": "Domestic credit to private sector (% GDP)",
+      "unit": "% of GDP",
+      "sector": "Financial Access"
+    },
+    {
+      "code": "financial_access_household_debt_gdp",
+      "name": "Household debt (% GDP)",
+      "unit": "% of GDP",
+      "sector": "Financial Access"
+    },
+    {
+      "code": "financial_access_npl_ratio_total_loans",
+      "name": "NPL ratio (% total loans)",
+      "unit": "% Total Loans",
+      "sector": "Financial Access"
+    },
+    {
+      "code": "industrial_production_agriculture_value_added_gdp",
+      "name": "Agriculture value added (% GDP)",
+      "unit": "% of GDP",
+      "sector": "Industrial Production"
+    },
+    {
+      "code": "industrial_production_capacity_utilization_rate",
+      "name": "Capacity utilization rate (%)",
+      "unit": "%",
+      "sector": "Industrial Production"
+    },
+    {
+      "code": "industrial_production_manufacturing_production_index_growth",
+      "name": "Manufacturing production index growth (%)",
+      "unit": "% Annual",
+      "sector": "Industrial Production"
+    },
+    {
+      "code": "industrial_production_manufacturing_value_added_gdp",
+      "name": "Manufacturing value added (% GDP)",
+      "unit": "% of GDP",
+      "sector": "Industrial Production"
+    },
+    {
+      "code": "industrial_production_services_value_added_gdp",
+      "name": "Services value added (% GDP)",
+      "unit": "% of GDP",
+      "sector": "Industrial Production"
+    },
+    {
+      "code": "industrial_production_vehicle_production_thousands",
+      "name": "Vehicle production (thousands)",
+      "unit": "Thousand Units",
+      "sector": "Industrial Production"
+    },
+    {
+      "code": "investment_capital_boi_approved_investments_usd_bn",
+      "name": "BOI approved investments (USD bn)",
+      "unit": "USD Billion",
+      "sector": "Investment & Capital"
+    },
+    {
+      "code": "investment_capital_fdi_net_inflows_gdp",
+      "name": "FDI net inflows (% GDP)",
+      "unit": "% of GDP",
+      "sector": "Investment & Capital"
+    },
+    {
+      "code": "investment_capital_fdi_net_inflows_usd_bn",
+      "name": "FDI net inflows (USD bn)",
+      "unit": "USD Billion",
+      "sector": "Investment & Capital"
+    },
+    {
+      "code": "investment_capital_gross_fixed_capital_formation_gdp",
+      "name": "Gross fixed capital formation (% GDP)",
+      "unit": "% of GDP",
+      "sector": "Investment & Capital"
+    },
+    {
+      "code": "investment_capital_private_investment_growth",
+      "name": "Private investment growth (%)",
+      "unit": "% Annual",
+      "sector": "Investment & Capital"
+    },
+    {
+      "code": "labor_market_employment_in_agriculture_total",
+      "name": "Employment in agriculture (% total)",
+      "unit": "% of Employment",
+      "sector": "Labor Market"
+    },
+    {
+      "code": "labor_market_employment_in_industry_total",
+      "name": "Employment in industry (% total)",
+      "unit": "% of Employment",
+      "sector": "Labor Market"
+    },
+    {
+      "code": "labor_market_employment_in_services_total",
+      "name": "Employment in services (% total)",
+      "unit": "% of Employment",
+      "sector": "Labor Market"
+    },
+    {
+      "code": "labor_market_labor_force_participation_rate",
+      "name": "Labor force participation rate (%)",
+      "unit": "%",
+      "sector": "Labor Market"
+    },
+    {
+      "code": "labor_market_minimum_daily_wage_thb",
+      "name": "Minimum daily wage (THB)",
+      "unit": "THB / Day",
+      "sector": "Labor Market"
+    },
+    {
+      "code": "labor_market_total_employed_persons_millions",
+      "name": "Total employed persons (millions)",
+      "unit": "Millions",
+      "sector": "Labor Market"
+    },
+    {
+      "code": "labor_market_unemployment_rate",
+      "name": "Unemployment rate (%)",
+      "unit": "%",
+      "sector": "Labor Market"
+    },
+    {
+      "code": "labor_market_youth_unemployment_rate",
+      "name": "Youth unemployment rate (%)",
+      "unit": "%",
+      "sector": "Labor Market"
+    },
+    {
+      "code": "prices_costs_cpi_inflation",
+      "name": "CPI inflation (%)",
+      "unit": "% Annual",
+      "sector": "Prices & Costs"
+    },
+    {
+      "code": "prices_costs_gasoline_price_thblitre_regular",
+      "name": "Gasoline price (THB/litre, regular)",
+      "unit": "THB / Litre",
+      "sector": "Prices & Costs"
+    },
+    {
+      "code": "prices_costs_producer_price_index_growth",
+      "name": "Producer price index growth (%)",
+      "unit": "% Annual",
+      "sector": "Prices & Costs"
+    },
+    {
+      "code": "real_estate_urban_new_housing_units_launched_bangkok_thousands",
+      "name": "New housing units launched (Bangkok, thousands)",
+      "unit": "Thousands",
+      "sector": "Real Estate & Urban"
+    },
+    {
+      "code": "real_estate_urban_residential_property_price_index_2015100",
+      "name": "Residential property price index (2015=100)",
+      "unit": "Index (2015=100)",
+      "sector": "Real Estate & Urban"
+    },
+    {
+      "code": "real_estate_urban_urban_population_total",
+      "name": "Urban population (% total)",
+      "unit": "% Total Population",
+      "sector": "Real Estate & Urban"
+    },
+    {
+      "code": "technology_digital_digital_payment_transactions_billion_thb",
+      "name": "Digital payment transactions (billion THB)",
+      "unit": "Billion THB",
+      "sector": "Technology & Digital"
+    },
+    {
+      "code": "technology_digital_e_commerce_market_value_usd_bn",
+      "name": "E-commerce market value (USD bn)",
+      "unit": "USD Billion",
+      "sector": "Technology & Digital"
+    },
+    {
+      "code": "technology_digital_internet_users_population",
+      "name": "Internet users (% population)",
+      "unit": "% Population",
+      "sector": "Technology & Digital"
+    },
+    {
+      "code": "technology_digital_mobile_subscriptions_per_100_people",
+      "name": "Mobile subscriptions (per 100 people)",
+      "unit": "Per 100 People",
+      "sector": "Technology & Digital"
+    }
+  ],
+  "series": [
+    {
+      "sector": "Business Environment",
+      "indicatorCode": "business_environment_number_of_new_business_registrations_thousands",
+      "indicatorName": "Number of new business registrations (thousands)",
+      "unit": "Thousands",
+      "frequency": "annual",
+      "sourceName": "Department of Business Development (DBD)",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 58.3
+        },
+        {
+          "date": "2006-01-01",
+          "value": 59.1
+        },
+        {
+          "date": "2007-01-01",
+          "value": 61.4
+        },
+        {
+          "date": "2008-01-01",
+          "value": 67.2
+        },
+        {
+          "date": "2009-01-01",
+          "value": 65.8
+        },
+        {
+          "date": "2010-01-01",
+          "value": 72.4
+        },
+        {
+          "date": "2011-01-01",
+          "value": 71.9
+        },
+        {
+          "date": "2012-01-01",
+          "value": 78.2
+        },
+        {
+          "date": "2013-01-01",
+          "value": 79.6
+        },
+        {
+          "date": "2014-01-01",
+          "value": 76.3
+        },
+        {
+          "date": "2015-01-01",
+          "value": 77.4
+        },
+        {
+          "date": "2016-01-01",
+          "value": 80.1
+        },
+        {
+          "date": "2017-01-01",
+          "value": 81.9
+        },
+        {
+          "date": "2018-01-01",
+          "value": 84.3
+        },
+        {
+          "date": "2019-01-01",
+          "value": 82.1
+        },
+        {
+          "date": "2020-01-01",
+          "value": 72.4
+        },
+        {
+          "date": "2021-01-01",
+          "value": 75.8
+        },
+        {
+          "date": "2022-01-01",
+          "value": 80.4
+        },
+        {
+          "date": "2023-01-01",
+          "value": 85.6
+        },
+        {
+          "date": "2024-01-01",
+          "value": 87.4
+        },
+        {
+          "date": "2025-01-01",
+          "value": 83.1
+        }
+      ]
+    },
+    {
+      "sector": "Business Environment",
+      "indicatorCode": "business_environment_rd_expenditure_gdp",
+      "indicatorName": "R&D expenditure (% GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "UNESCO / World Bank GB.XPD.RSDV.GD.ZS",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 0.25
+        },
+        {
+          "date": "2006-01-01",
+          "value": 0.25
+        },
+        {
+          "date": "2007-01-01",
+          "value": 0.21
+        },
+        {
+          "date": "2008-01-01",
+          "value": 0.2
+        },
+        {
+          "date": "2009-01-01",
+          "value": 0.21
+        },
+        {
+          "date": "2010-01-01",
+          "value": 0.2
+        },
+        {
+          "date": "2011-01-01",
+          "value": 0.23
+        },
+        {
+          "date": "2012-01-01",
+          "value": 0.39
+        },
+        {
+          "date": "2013-01-01",
+          "value": 0.44
+        },
+        {
+          "date": "2014-01-01",
+          "value": 0.45
+        },
+        {
+          "date": "2015-01-01",
+          "value": 0.63
+        },
+        {
+          "date": "2016-01-01",
+          "value": 0.78
+        },
+        {
+          "date": "2017-01-01",
+          "value": 0.78
+        },
+        {
+          "date": "2018-01-01",
+          "value": 1
+        },
+        {
+          "date": "2019-01-01",
+          "value": 1.14
+        },
+        {
+          "date": "2020-01-01",
+          "value": 1.33
+        },
+        {
+          "date": "2021-01-01",
+          "value": 1.26
+        },
+        {
+          "date": "2022-01-01",
+          "value": 1.21
+        },
+        {
+          "date": "2023-01-01",
+          "value": 1.2
+        },
+        {
+          "date": "2024-01-01",
+          "value": 1.25
+        },
+        {
+          "date": "2025-01-01",
+          "value": 1.3
+        }
+      ]
+    },
+    {
+      "sector": "Business Environment",
+      "indicatorCode": "business_environment_sme_employment_share_total_employment",
+      "indicatorName": "SME employment share (% total employment)",
+      "unit": "% of Employment",
+      "frequency": "annual",
+      "sourceName": "OSMEP Annual Report",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 74.1
+        },
+        {
+          "date": "2006-01-01",
+          "value": 74
+        },
+        {
+          "date": "2007-01-01",
+          "value": 73.8
+        },
+        {
+          "date": "2008-01-01",
+          "value": 73.5
+        },
+        {
+          "date": "2009-01-01",
+          "value": 73.2
+        },
+        {
+          "date": "2010-01-01",
+          "value": 72.5
+        },
+        {
+          "date": "2011-01-01",
+          "value": 72.8
+        },
+        {
+          "date": "2012-01-01",
+          "value": 72.2
+        },
+        {
+          "date": "2013-01-01",
+          "value": 72.4
+        },
+        {
+          "date": "2014-01-01",
+          "value": 72.6
+        },
+        {
+          "date": "2015-01-01",
+          "value": 71.8
+        },
+        {
+          "date": "2016-01-01",
+          "value": 72.1
+        },
+        {
+          "date": "2017-01-01",
+          "value": 72.3
+        },
+        {
+          "date": "2018-01-01",
+          "value": 71.7
+        },
+        {
+          "date": "2019-01-01",
+          "value": 71.1
+        },
+        {
+          "date": "2020-01-01",
+          "value": 70.8
+        },
+        {
+          "date": "2021-01-01",
+          "value": 70.3
+        },
+        {
+          "date": "2022-01-01",
+          "value": 70.1
+        },
+        {
+          "date": "2023-01-01",
+          "value": 69.9
+        },
+        {
+          "date": "2024-01-01",
+          "value": 69.5
+        },
+        {
+          "date": "2025-01-01",
+          "value": 69.5
+        }
+      ]
+    },
+    {
+      "sector": "Business Environment",
+      "indicatorCode": "business_environment_sme_share_of_gdp",
+      "indicatorName": "SME share of GDP (%)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "Office of SME Promotion (OSMEP)",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 38.9
+        },
+        {
+          "date": "2006-01-01",
+          "value": 38.2
+        },
+        {
+          "date": "2007-01-01",
+          "value": 38.1
+        },
+        {
+          "date": "2008-01-01",
+          "value": 37.6
+        },
+        {
+          "date": "2009-01-01",
+          "value": 37.3
+        },
+        {
+          "date": "2010-01-01",
+          "value": 37
+        },
+        {
+          "date": "2011-01-01",
+          "value": 37.3
+        },
+        {
+          "date": "2012-01-01",
+          "value": 37.1
+        },
+        {
+          "date": "2013-01-01",
+          "value": 37.4
+        },
+        {
+          "date": "2014-01-01",
+          "value": 39.6
+        },
+        {
+          "date": "2015-01-01",
+          "value": 41.1
+        },
+        {
+          "date": "2016-01-01",
+          "value": 42.2
+        },
+        {
+          "date": "2017-01-01",
+          "value": 42.9
+        },
+        {
+          "date": "2018-01-01",
+          "value": 43.5
+        },
+        {
+          "date": "2019-01-01",
+          "value": 35.5
+        },
+        {
+          "date": "2020-01-01",
+          "value": 34.8
+        },
+        {
+          "date": "2021-01-01",
+          "value": 34.2
+        },
+        {
+          "date": "2022-01-01",
+          "value": 34.8
+        },
+        {
+          "date": "2023-01-01",
+          "value": 35.3
+        },
+        {
+          "date": "2024-01-01",
+          "value": 35.3
+        },
+        {
+          "date": "2025-01-01",
+          "value": 35.5
+        }
+      ]
+    },
+    {
+      "sector": "Consumer Market",
+      "indicatorCode": "consumer_market_consumer_confidence_index",
+      "indicatorName": "Consumer confidence index",
+      "unit": "Index",
+      "frequency": "annual",
+      "sourceName": "BOT / University of Thai Chamber of Commerce",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 80.2
+        },
+        {
+          "date": "2006-01-01",
+          "value": 77.8
+        },
+        {
+          "date": "2007-01-01",
+          "value": 75.1
+        },
+        {
+          "date": "2008-01-01",
+          "value": 68.4
+        },
+        {
+          "date": "2009-01-01",
+          "value": 71.3
+        },
+        {
+          "date": "2010-01-01",
+          "value": 78.5
+        },
+        {
+          "date": "2011-01-01",
+          "value": 68.9
+        },
+        {
+          "date": "2012-01-01",
+          "value": 76.8
+        },
+        {
+          "date": "2013-01-01",
+          "value": 73.2
+        },
+        {
+          "date": "2014-01-01",
+          "value": 63.5
+        },
+        {
+          "date": "2015-01-01",
+          "value": 64.8
+        },
+        {
+          "date": "2016-01-01",
+          "value": 66.3
+        },
+        {
+          "date": "2017-01-01",
+          "value": 70.1
+        },
+        {
+          "date": "2018-01-01",
+          "value": 72.4
+        },
+        {
+          "date": "2019-01-01",
+          "value": 71.2
+        },
+        {
+          "date": "2020-01-01",
+          "value": 55.3
+        },
+        {
+          "date": "2021-01-01",
+          "value": 46.8
+        },
+        {
+          "date": "2022-01-01",
+          "value": 52.4
+        },
+        {
+          "date": "2023-01-01",
+          "value": 59.7
+        },
+        {
+          "date": "2024-01-01",
+          "value": 61.8
+        },
+        {
+          "date": "2025-01-01",
+          "value": 58.9
+        }
+      ]
+    },
+    {
+      "sector": "Consumer Market",
+      "indicatorCode": "consumer_market_domestic_car_sales_thousands",
+      "indicatorName": "Domestic car sales (thousands)",
+      "unit": "Thousand Units",
+      "frequency": "annual",
+      "sourceName": "Federation of Thai Industries (FTI)",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 703
+        },
+        {
+          "date": "2006-01-01",
+          "value": 694
+        },
+        {
+          "date": "2007-01-01",
+          "value": 631
+        },
+        {
+          "date": "2008-01-01",
+          "value": 615
+        },
+        {
+          "date": "2009-01-01",
+          "value": 547
+        },
+        {
+          "date": "2010-01-01",
+          "value": 800
+        },
+        {
+          "date": "2011-01-01",
+          "value": 794
+        },
+        {
+          "date": "2012-01-01",
+          "value": 1436
+        },
+        {
+          "date": "2013-01-01",
+          "value": 1330
+        },
+        {
+          "date": "2014-01-01",
+          "value": 882
+        },
+        {
+          "date": "2015-01-01",
+          "value": 800
+        },
+        {
+          "date": "2016-01-01",
+          "value": 768
+        },
+        {
+          "date": "2017-01-01",
+          "value": 872
+        },
+        {
+          "date": "2018-01-01",
+          "value": 1041
+        },
+        {
+          "date": "2019-01-01",
+          "value": 1007
+        },
+        {
+          "date": "2020-01-01",
+          "value": 792
+        },
+        {
+          "date": "2021-01-01",
+          "value": 759
+        },
+        {
+          "date": "2022-01-01",
+          "value": 849
+        },
+        {
+          "date": "2023-01-01",
+          "value": 841
+        },
+        {
+          "date": "2024-01-01",
+          "value": 574
+        },
+        {
+          "date": "2025-01-01",
+          "value": 530
+        }
+      ]
+    },
+    {
+      "sector": "Consumer Market",
+      "indicatorCode": "consumer_market_household_consumption_of_gdp",
+      "indicatorName": "Household consumption (% of GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "NESDC National Accounts",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 56.9
+        },
+        {
+          "date": "2006-01-01",
+          "value": 56.1
+        },
+        {
+          "date": "2007-01-01",
+          "value": 55.8
+        },
+        {
+          "date": "2008-01-01",
+          "value": 55.6
+        },
+        {
+          "date": "2009-01-01",
+          "value": 54.9
+        },
+        {
+          "date": "2010-01-01",
+          "value": 54.2
+        },
+        {
+          "date": "2011-01-01",
+          "value": 55.3
+        },
+        {
+          "date": "2012-01-01",
+          "value": 55
+        },
+        {
+          "date": "2013-01-01",
+          "value": 55.2
+        },
+        {
+          "date": "2014-01-01",
+          "value": 55.3
+        },
+        {
+          "date": "2015-01-01",
+          "value": 55.4
+        },
+        {
+          "date": "2016-01-01",
+          "value": 55
+        },
+        {
+          "date": "2017-01-01",
+          "value": 54.7
+        },
+        {
+          "date": "2018-01-01",
+          "value": 54.8
+        },
+        {
+          "date": "2019-01-01",
+          "value": 55.2
+        },
+        {
+          "date": "2020-01-01",
+          "value": 57.4
+        },
+        {
+          "date": "2021-01-01",
+          "value": 57.7
+        },
+        {
+          "date": "2022-01-01",
+          "value": 57.1
+        },
+        {
+          "date": "2023-01-01",
+          "value": 57.7
+        },
+        {
+          "date": "2024-01-01",
+          "value": 57.5
+        },
+        {
+          "date": "2025-01-01",
+          "value": 57.2
+        }
+      ]
+    },
+    {
+      "sector": "Consumer Market",
+      "indicatorCode": "consumer_market_household_consumption_usd_bn",
+      "indicatorName": "Household consumption (USD bn)",
+      "unit": "USD Billion",
+      "frequency": "annual",
+      "sourceName": "NESDC / World Bank NE.CON.PRVT.CD",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 148.2
+        },
+        {
+          "date": "2006-01-01",
+          "value": 165.1
+        },
+        {
+          "date": "2007-01-01",
+          "value": 183.2
+        },
+        {
+          "date": "2008-01-01",
+          "value": 200.5
+        },
+        {
+          "date": "2009-01-01",
+          "value": 186.3
+        },
+        {
+          "date": "2010-01-01",
+          "value": 213.4
+        },
+        {
+          "date": "2011-01-01",
+          "value": 216.8
+        },
+        {
+          "date": "2012-01-01",
+          "value": 251.4
+        },
+        {
+          "date": "2013-01-01",
+          "value": 260.1
+        },
+        {
+          "date": "2014-01-01",
+          "value": 254.8
+        },
+        {
+          "date": "2015-01-01",
+          "value": 237.9
+        },
+        {
+          "date": "2016-01-01",
+          "value": 239.2
+        },
+        {
+          "date": "2017-01-01",
+          "value": 257.1
+        },
+        {
+          "date": "2018-01-01",
+          "value": 273.6
+        },
+        {
+          "date": "2019-01-01",
+          "value": 280.3
+        },
+        {
+          "date": "2020-01-01",
+          "value": 265.5
+        },
+        {
+          "date": "2021-01-01",
+          "value": 264.4
+        },
+        {
+          "date": "2022-01-01",
+          "value": 270.4
+        },
+        {
+          "date": "2023-01-01",
+          "value": 297
+        },
+        {
+          "date": "2024-01-01",
+          "value": 308.2
+        },
+        {
+          "date": "2025-01-01",
+          "value": 314.8
+        }
+      ]
+    },
+    {
+      "sector": "Consumer Market",
+      "indicatorCode": "consumer_market_household_consumption_growth",
+      "indicatorName": "Household consumption growth (%)",
+      "unit": "% Annual",
+      "frequency": "annual",
+      "sourceName": "NESDC National Accounts",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 4.6
+        },
+        {
+          "date": "2006-01-01",
+          "value": 3
+        },
+        {
+          "date": "2007-01-01",
+          "value": 1.6
+        },
+        {
+          "date": "2008-01-01",
+          "value": 2.7
+        },
+        {
+          "date": "2009-01-01",
+          "value": -1.1
+        },
+        {
+          "date": "2010-01-01",
+          "value": 5.2
+        },
+        {
+          "date": "2011-01-01",
+          "value": 1.3
+        },
+        {
+          "date": "2012-01-01",
+          "value": 6.7
+        },
+        {
+          "date": "2013-01-01",
+          "value": 0.8
+        },
+        {
+          "date": "2014-01-01",
+          "value": 0.6
+        },
+        {
+          "date": "2015-01-01",
+          "value": 2.2
+        },
+        {
+          "date": "2016-01-01",
+          "value": 3
+        },
+        {
+          "date": "2017-01-01",
+          "value": 3.1
+        },
+        {
+          "date": "2018-01-01",
+          "value": 4.6
+        },
+        {
+          "date": "2019-01-01",
+          "value": 4.4
+        },
+        {
+          "date": "2020-01-01",
+          "value": -1
+        },
+        {
+          "date": "2021-01-01",
+          "value": 0.3
+        },
+        {
+          "date": "2022-01-01",
+          "value": 6.2
+        },
+        {
+          "date": "2023-01-01",
+          "value": 6.9
+        },
+        {
+          "date": "2024-01-01",
+          "value": 4.4
+        },
+        {
+          "date": "2025-01-01",
+          "value": 2.6
+        }
+      ]
+    },
+    {
+      "sector": "Consumer Market",
+      "indicatorCode": "consumer_market_retail_sales_growth",
+      "indicatorName": "Retail sales growth (%)",
+      "unit": "% Annual",
+      "frequency": "annual",
+      "sourceName": "BOT Retail Trade Index / OIE",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 6.8
+        },
+        {
+          "date": "2006-01-01",
+          "value": 5.2
+        },
+        {
+          "date": "2007-01-01",
+          "value": 3.4
+        },
+        {
+          "date": "2008-01-01",
+          "value": 2.1
+        },
+        {
+          "date": "2009-01-01",
+          "value": -2.8
+        },
+        {
+          "date": "2010-01-01",
+          "value": 7.3
+        },
+        {
+          "date": "2011-01-01",
+          "value": 2.6
+        },
+        {
+          "date": "2012-01-01",
+          "value": 9.4
+        },
+        {
+          "date": "2013-01-01",
+          "value": 2.1
+        },
+        {
+          "date": "2014-01-01",
+          "value": 0.8
+        },
+        {
+          "date": "2015-01-01",
+          "value": 1.9
+        },
+        {
+          "date": "2016-01-01",
+          "value": 2.4
+        },
+        {
+          "date": "2017-01-01",
+          "value": 3.8
+        },
+        {
+          "date": "2018-01-01",
+          "value": 5.1
+        },
+        {
+          "date": "2019-01-01",
+          "value": 3.9
+        },
+        {
+          "date": "2020-01-01",
+          "value": -6.1
+        },
+        {
+          "date": "2021-01-01",
+          "value": 1.2
+        },
+        {
+          "date": "2022-01-01",
+          "value": 7.8
+        },
+        {
+          "date": "2023-01-01",
+          "value": 8.2
+        },
+        {
+          "date": "2024-01-01",
+          "value": 4.1
+        },
+        {
+          "date": "2025-01-01",
+          "value": 2.3
+        }
+      ]
+    },
+    {
+      "sector": "Financial Access",
+      "indicatorCode": "financial_access_bank_account_ownership_age_15",
+      "indicatorName": "Bank account ownership (% age 15+)",
+      "unit": "% Population 15+",
+      "frequency": "annual",
+      "sourceName": "World Bank Global Findex / BOT",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 52.8
+        },
+        {
+          "date": "2006-01-01",
+          "value": 55.1
+        },
+        {
+          "date": "2007-01-01",
+          "value": 56.4
+        },
+        {
+          "date": "2008-01-01",
+          "value": 57.9
+        },
+        {
+          "date": "2009-01-01",
+          "value": 59.2
+        },
+        {
+          "date": "2010-01-01",
+          "value": 62.4
+        },
+        {
+          "date": "2011-01-01",
+          "value": 63.8
+        },
+        {
+          "date": "2012-01-01",
+          "value": 72.7
+        },
+        {
+          "date": "2013-01-01",
+          "value": 74.1
+        },
+        {
+          "date": "2014-01-01",
+          "value": 76.2
+        },
+        {
+          "date": "2015-01-01",
+          "value": 78.1
+        },
+        {
+          "date": "2016-01-01",
+          "value": 79.6
+        },
+        {
+          "date": "2017-01-01",
+          "value": 81.6
+        },
+        {
+          "date": "2018-01-01",
+          "value": 82
+        },
+        {
+          "date": "2019-01-01",
+          "value": 87.7
+        },
+        {
+          "date": "2020-01-01",
+          "value": 89.2
+        },
+        {
+          "date": "2021-01-01",
+          "value": 91.8
+        },
+        {
+          "date": "2022-01-01",
+          "value": 94.1
+        },
+        {
+          "date": "2023-01-01",
+          "value": 95.2
+        },
+        {
+          "date": "2024-01-01",
+          "value": 96
+        },
+        {
+          "date": "2025-01-01",
+          "value": 96.5
+        }
+      ]
+    },
+    {
+      "sector": "Financial Access",
+      "indicatorCode": "financial_access_domestic_credit_to_private_sector_gdp",
+      "indicatorName": "Domestic credit to private sector (% GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "World Bank FS.AST.PRVT.GD.ZS / BOT",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 89.4
+        },
+        {
+          "date": "2006-01-01",
+          "value": 88.9
+        },
+        {
+          "date": "2007-01-01",
+          "value": 89.5
+        },
+        {
+          "date": "2008-01-01",
+          "value": 97.9
+        },
+        {
+          "date": "2009-01-01",
+          "value": 101.8
+        },
+        {
+          "date": "2010-01-01",
+          "value": 106.8
+        },
+        {
+          "date": "2011-01-01",
+          "value": 111.8
+        },
+        {
+          "date": "2012-01-01",
+          "value": 121.8
+        },
+        {
+          "date": "2013-01-01",
+          "value": 133.1
+        },
+        {
+          "date": "2014-01-01",
+          "value": 139.8
+        },
+        {
+          "date": "2015-01-01",
+          "value": 145.6
+        },
+        {
+          "date": "2016-01-01",
+          "value": 150.1
+        },
+        {
+          "date": "2017-01-01",
+          "value": 147.2
+        },
+        {
+          "date": "2018-01-01",
+          "value": 150.2
+        },
+        {
+          "date": "2019-01-01",
+          "value": 155.1
+        },
+        {
+          "date": "2020-01-01",
+          "value": 164
+        },
+        {
+          "date": "2021-01-01",
+          "value": 162.5
+        },
+        {
+          "date": "2022-01-01",
+          "value": 159
+        },
+        {
+          "date": "2023-01-01",
+          "value": 157.1
+        },
+        {
+          "date": "2024-01-01",
+          "value": 154.2
+        },
+        {
+          "date": "2025-01-01",
+          "value": 152.1
+        }
+      ]
+    },
+    {
+      "sector": "Financial Access",
+      "indicatorCode": "financial_access_household_debt_gdp",
+      "indicatorName": "Household debt (% GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "BOT Household Debt Statistics",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 52.3
+        },
+        {
+          "date": "2006-01-01",
+          "value": 51.8
+        },
+        {
+          "date": "2007-01-01",
+          "value": 52.4
+        },
+        {
+          "date": "2008-01-01",
+          "value": 54.8
+        },
+        {
+          "date": "2009-01-01",
+          "value": 57.2
+        },
+        {
+          "date": "2010-01-01",
+          "value": 60.1
+        },
+        {
+          "date": "2011-01-01",
+          "value": 63.4
+        },
+        {
+          "date": "2012-01-01",
+          "value": 71.9
+        },
+        {
+          "date": "2013-01-01",
+          "value": 80.2
+        },
+        {
+          "date": "2014-01-01",
+          "value": 82.9
+        },
+        {
+          "date": "2015-01-01",
+          "value": 81.5
+        },
+        {
+          "date": "2016-01-01",
+          "value": 79.5
+        },
+        {
+          "date": "2017-01-01",
+          "value": 77.5
+        },
+        {
+          "date": "2018-01-01",
+          "value": 78.7
+        },
+        {
+          "date": "2019-01-01",
+          "value": 79.8
+        },
+        {
+          "date": "2020-01-01",
+          "value": 89.3
+        },
+        {
+          "date": "2021-01-01",
+          "value": 90.1
+        },
+        {
+          "date": "2022-01-01",
+          "value": 86.9
+        },
+        {
+          "date": "2023-01-01",
+          "value": 90.6
+        },
+        {
+          "date": "2024-01-01",
+          "value": 89.6
+        },
+        {
+          "date": "2025-01-01",
+          "value": 88.7
+        }
+      ]
+    },
+    {
+      "sector": "Financial Access",
+      "indicatorCode": "financial_access_npl_ratio_total_loans",
+      "indicatorName": "NPL ratio (% total loans)",
+      "unit": "% Total Loans",
+      "frequency": "annual",
+      "sourceName": "BOT Financial Institution Statistics",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 9.1
+        },
+        {
+          "date": "2006-01-01",
+          "value": 7.5
+        },
+        {
+          "date": "2007-01-01",
+          "value": 7.9
+        },
+        {
+          "date": "2008-01-01",
+          "value": 5.6
+        },
+        {
+          "date": "2009-01-01",
+          "value": 5.3
+        },
+        {
+          "date": "2010-01-01",
+          "value": 3.9
+        },
+        {
+          "date": "2011-01-01",
+          "value": 2.9
+        },
+        {
+          "date": "2012-01-01",
+          "value": 2.4
+        },
+        {
+          "date": "2013-01-01",
+          "value": 2.3
+        },
+        {
+          "date": "2014-01-01",
+          "value": 2.4
+        },
+        {
+          "date": "2015-01-01",
+          "value": 2.7
+        },
+        {
+          "date": "2016-01-01",
+          "value": 2.9
+        },
+        {
+          "date": "2017-01-01",
+          "value": 2.9
+        },
+        {
+          "date": "2018-01-01",
+          "value": 3
+        },
+        {
+          "date": "2019-01-01",
+          "value": 3
+        },
+        {
+          "date": "2020-01-01",
+          "value": 3.9
+        },
+        {
+          "date": "2021-01-01",
+          "value": 3.7
+        },
+        {
+          "date": "2022-01-01",
+          "value": 2.7
+        },
+        {
+          "date": "2023-01-01",
+          "value": 2.8
+        },
+        {
+          "date": "2024-01-01",
+          "value": 3.3
+        },
+        {
+          "date": "2025-01-01",
+          "value": 3.5
+        }
+      ]
+    },
+    {
+      "sector": "Industrial Production",
+      "indicatorCode": "industrial_production_agriculture_value_added_gdp",
+      "indicatorName": "Agriculture value added (% GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "World Bank NV.AGR.TOTL.ZS / NESDC",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 10.4
+        },
+        {
+          "date": "2006-01-01",
+          "value": 10.7
+        },
+        {
+          "date": "2007-01-01",
+          "value": 10.5
+        },
+        {
+          "date": "2008-01-01",
+          "value": 10.9
+        },
+        {
+          "date": "2009-01-01",
+          "value": 10.5
+        },
+        {
+          "date": "2010-01-01",
+          "value": 10.3
+        },
+        {
+          "date": "2011-01-01",
+          "value": 10.1
+        },
+        {
+          "date": "2012-01-01",
+          "value": 10.4
+        },
+        {
+          "date": "2013-01-01",
+          "value": 10.2
+        },
+        {
+          "date": "2014-01-01",
+          "value": 9.9
+        },
+        {
+          "date": "2015-01-01",
+          "value": 8.5
+        },
+        {
+          "date": "2016-01-01",
+          "value": 8.4
+        },
+        {
+          "date": "2017-01-01",
+          "value": 8.3
+        },
+        {
+          "date": "2018-01-01",
+          "value": 8.2
+        },
+        {
+          "date": "2019-01-01",
+          "value": 8.1
+        },
+        {
+          "date": "2020-01-01",
+          "value": 8.6
+        },
+        {
+          "date": "2021-01-01",
+          "value": 8.5
+        },
+        {
+          "date": "2022-01-01",
+          "value": 8.6
+        },
+        {
+          "date": "2023-01-01",
+          "value": 8.7
+        },
+        {
+          "date": "2024-01-01",
+          "value": 8.7
+        },
+        {
+          "date": "2025-01-01",
+          "value": 8.6
+        }
+      ]
+    },
+    {
+      "sector": "Industrial Production",
+      "indicatorCode": "industrial_production_capacity_utilization_rate",
+      "indicatorName": "Capacity utilization rate (%)",
+      "unit": "%",
+      "frequency": "annual",
+      "sourceName": "BOT / OIE",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 73.2
+        },
+        {
+          "date": "2006-01-01",
+          "value": 74.8
+        },
+        {
+          "date": "2007-01-01",
+          "value": 76.3
+        },
+        {
+          "date": "2008-01-01",
+          "value": 72.1
+        },
+        {
+          "date": "2009-01-01",
+          "value": 61.4
+        },
+        {
+          "date": "2010-01-01",
+          "value": 72.8
+        },
+        {
+          "date": "2011-01-01",
+          "value": 63.5
+        },
+        {
+          "date": "2012-01-01",
+          "value": 72.1
+        },
+        {
+          "date": "2013-01-01",
+          "value": 68.4
+        },
+        {
+          "date": "2014-01-01",
+          "value": 66.1
+        },
+        {
+          "date": "2015-01-01",
+          "value": 64.8
+        },
+        {
+          "date": "2016-01-01",
+          "value": 63.9
+        },
+        {
+          "date": "2017-01-01",
+          "value": 64.8
+        },
+        {
+          "date": "2018-01-01",
+          "value": 66.3
+        },
+        {
+          "date": "2019-01-01",
+          "value": 64.1
+        },
+        {
+          "date": "2020-01-01",
+          "value": 56.2
+        },
+        {
+          "date": "2021-01-01",
+          "value": 61.8
+        },
+        {
+          "date": "2022-01-01",
+          "value": 63.4
+        },
+        {
+          "date": "2023-01-01",
+          "value": 60.1
+        },
+        {
+          "date": "2024-01-01",
+          "value": 58.7
+        },
+        {
+          "date": "2025-01-01",
+          "value": 59.8
+        }
+      ]
+    },
+    {
+      "sector": "Industrial Production",
+      "indicatorCode": "industrial_production_manufacturing_production_index_growth",
+      "indicatorName": "Manufacturing production index growth (%)",
+      "unit": "% Annual",
+      "frequency": "annual",
+      "sourceName": "Office of Industrial Economics (OIE)",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 9.1
+        },
+        {
+          "date": "2006-01-01",
+          "value": 7.3
+        },
+        {
+          "date": "2007-01-01",
+          "value": 7.9
+        },
+        {
+          "date": "2008-01-01",
+          "value": 3.8
+        },
+        {
+          "date": "2009-01-01",
+          "value": -7.2
+        },
+        {
+          "date": "2010-01-01",
+          "value": 14.6
+        },
+        {
+          "date": "2011-01-01",
+          "value": -9.3
+        },
+        {
+          "date": "2012-01-01",
+          "value": 9
+        },
+        {
+          "date": "2013-01-01",
+          "value": -3.1
+        },
+        {
+          "date": "2014-01-01",
+          "value": -0.4
+        },
+        {
+          "date": "2015-01-01",
+          "value": 0.4
+        },
+        {
+          "date": "2016-01-01",
+          "value": 0
+        },
+        {
+          "date": "2017-01-01",
+          "value": 1.7
+        },
+        {
+          "date": "2018-01-01",
+          "value": 3.5
+        },
+        {
+          "date": "2019-01-01",
+          "value": -3.5
+        },
+        {
+          "date": "2020-01-01",
+          "value": -9.6
+        },
+        {
+          "date": "2021-01-01",
+          "value": 5.9
+        },
+        {
+          "date": "2022-01-01",
+          "value": 0.4
+        },
+        {
+          "date": "2023-01-01",
+          "value": -4.8
+        },
+        {
+          "date": "2024-01-01",
+          "value": -2.2
+        },
+        {
+          "date": "2025-01-01",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "sector": "Industrial Production",
+      "indicatorCode": "industrial_production_manufacturing_value_added_gdp",
+      "indicatorName": "Manufacturing value added (% GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "World Bank NV.IND.MANF.ZS / NESDC",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 34.3
+        },
+        {
+          "date": "2006-01-01",
+          "value": 34.9
+        },
+        {
+          "date": "2007-01-01",
+          "value": 34.7
+        },
+        {
+          "date": "2008-01-01",
+          "value": 33.3
+        },
+        {
+          "date": "2009-01-01",
+          "value": 30.4
+        },
+        {
+          "date": "2010-01-01",
+          "value": 33.6
+        },
+        {
+          "date": "2011-01-01",
+          "value": 31.9
+        },
+        {
+          "date": "2012-01-01",
+          "value": 32.2
+        },
+        {
+          "date": "2013-01-01",
+          "value": 30.9
+        },
+        {
+          "date": "2014-01-01",
+          "value": 30.2
+        },
+        {
+          "date": "2015-01-01",
+          "value": 27.1
+        },
+        {
+          "date": "2016-01-01",
+          "value": 27.3
+        },
+        {
+          "date": "2017-01-01",
+          "value": 27.5
+        },
+        {
+          "date": "2018-01-01",
+          "value": 27.2
+        },
+        {
+          "date": "2019-01-01",
+          "value": 26.5
+        },
+        {
+          "date": "2020-01-01",
+          "value": 25.5
+        },
+        {
+          "date": "2021-01-01",
+          "value": 25.6
+        },
+        {
+          "date": "2022-01-01",
+          "value": 24.9
+        },
+        {
+          "date": "2023-01-01",
+          "value": 24.5
+        },
+        {
+          "date": "2024-01-01",
+          "value": 24.2
+        },
+        {
+          "date": "2025-01-01",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "sector": "Industrial Production",
+      "indicatorCode": "industrial_production_services_value_added_gdp",
+      "indicatorName": "Services value added (% GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "World Bank NV.SRV.TOTL.ZS / NESDC",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 49.9
+        },
+        {
+          "date": "2006-01-01",
+          "value": 49.5
+        },
+        {
+          "date": "2007-01-01",
+          "value": 49.8
+        },
+        {
+          "date": "2008-01-01",
+          "value": 51.4
+        },
+        {
+          "date": "2009-01-01",
+          "value": 53.2
+        },
+        {
+          "date": "2010-01-01",
+          "value": 51.6
+        },
+        {
+          "date": "2011-01-01",
+          "value": 53
+        },
+        {
+          "date": "2012-01-01",
+          "value": 52.3
+        },
+        {
+          "date": "2013-01-01",
+          "value": 53.7
+        },
+        {
+          "date": "2014-01-01",
+          "value": 54.2
+        },
+        {
+          "date": "2015-01-01",
+          "value": 57.2
+        },
+        {
+          "date": "2016-01-01",
+          "value": 57.2
+        },
+        {
+          "date": "2017-01-01",
+          "value": 57.1
+        },
+        {
+          "date": "2018-01-01",
+          "value": 57.3
+        },
+        {
+          "date": "2019-01-01",
+          "value": 58.1
+        },
+        {
+          "date": "2020-01-01",
+          "value": 59.2
+        },
+        {
+          "date": "2021-01-01",
+          "value": 58.5
+        },
+        {
+          "date": "2022-01-01",
+          "value": 58.5
+        },
+        {
+          "date": "2023-01-01",
+          "value": 58.8
+        },
+        {
+          "date": "2024-01-01",
+          "value": 59.1
+        },
+        {
+          "date": "2025-01-01",
+          "value": 59.4
+        }
+      ]
+    },
+    {
+      "sector": "Industrial Production",
+      "indicatorCode": "industrial_production_vehicle_production_thousands",
+      "indicatorName": "Vehicle production (thousands)",
+      "unit": "Thousand Units",
+      "frequency": "annual",
+      "sourceName": "Toyota / FTI / OICA",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 1126
+        },
+        {
+          "date": "2006-01-01",
+          "value": 1188
+        },
+        {
+          "date": "2007-01-01",
+          "value": 1238
+        },
+        {
+          "date": "2008-01-01",
+          "value": 1394
+        },
+        {
+          "date": "2009-01-01",
+          "value": 999
+        },
+        {
+          "date": "2010-01-01",
+          "value": 1645
+        },
+        {
+          "date": "2011-01-01",
+          "value": 1457
+        },
+        {
+          "date": "2012-01-01",
+          "value": 2453
+        },
+        {
+          "date": "2013-01-01",
+          "value": 2457
+        },
+        {
+          "date": "2014-01-01",
+          "value": 1881
+        },
+        {
+          "date": "2015-01-01",
+          "value": 1913
+        },
+        {
+          "date": "2016-01-01",
+          "value": 1944
+        },
+        {
+          "date": "2017-01-01",
+          "value": 1988
+        },
+        {
+          "date": "2018-01-01",
+          "value": 2167
+        },
+        {
+          "date": "2019-01-01",
+          "value": 2013
+        },
+        {
+          "date": "2020-01-01",
+          "value": 1427
+        },
+        {
+          "date": "2021-01-01",
+          "value": 1685
+        },
+        {
+          "date": "2022-01-01",
+          "value": 1884
+        },
+        {
+          "date": "2023-01-01",
+          "value": 1841
+        },
+        {
+          "date": "2024-01-01",
+          "value": 1518
+        },
+        {
+          "date": "2025-01-01",
+          "value": 1420
+        }
+      ]
+    },
+    {
+      "sector": "Investment & Capital",
+      "indicatorCode": "investment_capital_boi_approved_investments_usd_bn",
+      "indicatorName": "BOI approved investments (USD bn)",
+      "unit": "USD Billion",
+      "frequency": "annual",
+      "sourceName": "Board of Investment Thailand (BOI)",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 7.4
+        },
+        {
+          "date": "2006-01-01",
+          "value": 6.9
+        },
+        {
+          "date": "2007-01-01",
+          "value": 5.8
+        },
+        {
+          "date": "2008-01-01",
+          "value": 7.1
+        },
+        {
+          "date": "2009-01-01",
+          "value": 5.2
+        },
+        {
+          "date": "2010-01-01",
+          "value": 9.8
+        },
+        {
+          "date": "2011-01-01",
+          "value": 6.3
+        },
+        {
+          "date": "2012-01-01",
+          "value": 12.4
+        },
+        {
+          "date": "2013-01-01",
+          "value": 9.8
+        },
+        {
+          "date": "2014-01-01",
+          "value": 6.2
+        },
+        {
+          "date": "2015-01-01",
+          "value": 10.8
+        },
+        {
+          "date": "2016-01-01",
+          "value": 10.4
+        },
+        {
+          "date": "2017-01-01",
+          "value": 9.5
+        },
+        {
+          "date": "2018-01-01",
+          "value": 11.5
+        },
+        {
+          "date": "2019-01-01",
+          "value": 10.9
+        },
+        {
+          "date": "2020-01-01",
+          "value": 7.4
+        },
+        {
+          "date": "2021-01-01",
+          "value": 8.6
+        },
+        {
+          "date": "2022-01-01",
+          "value": 14.1
+        },
+        {
+          "date": "2023-01-01",
+          "value": 20.8
+        },
+        {
+          "date": "2024-01-01",
+          "value": 18.5
+        },
+        {
+          "date": "2025-01-01",
+          "value": 15.2
+        }
+      ]
+    },
+    {
+      "sector": "Investment & Capital",
+      "indicatorCode": "investment_capital_fdi_net_inflows_gdp",
+      "indicatorName": "FDI net inflows (% GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "World Bank BX.KLT.DINV.WD.GD.ZS",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 1.95
+        },
+        {
+          "date": "2006-01-01",
+          "value": 1.74
+        },
+        {
+          "date": "2007-01-01",
+          "value": 1.95
+        },
+        {
+          "date": "2008-01-01",
+          "value": 1.05
+        },
+        {
+          "date": "2009-01-01",
+          "value": 0.54
+        },
+        {
+          "date": "2010-01-01",
+          "value": 0.49
+        },
+        {
+          "date": "2011-01-01",
+          "value": 0.67
+        },
+        {
+          "date": "2012-01-01",
+          "value": 2.17
+        },
+        {
+          "date": "2013-01-01",
+          "value": 1.37
+        },
+        {
+          "date": "2014-01-01",
+          "value": 0.7
+        },
+        {
+          "date": "2015-01-01",
+          "value": 2.22
+        },
+        {
+          "date": "2016-01-01",
+          "value": 0.72
+        },
+        {
+          "date": "2017-01-01",
+          "value": 0.53
+        },
+        {
+          "date": "2018-01-01",
+          "value": 2
+        },
+        {
+          "date": "2019-01-01",
+          "value": 0.88
+        },
+        {
+          "date": "2020-01-01",
+          "value": 0.87
+        },
+        {
+          "date": "2021-01-01",
+          "value": 2.24
+        },
+        {
+          "date": "2022-01-01",
+          "value": 1.74
+        },
+        {
+          "date": "2023-01-01",
+          "value": 1.27
+        },
+        {
+          "date": "2024-01-01",
+          "value": 1.35
+        },
+        {
+          "date": "2025-01-01",
+          "value": 1.38
+        }
+      ]
+    },
+    {
+      "sector": "Investment & Capital",
+      "indicatorCode": "investment_capital_fdi_net_inflows_usd_bn",
+      "indicatorName": "FDI net inflows (USD bn)",
+      "unit": "USD Billion",
+      "frequency": "annual",
+      "sourceName": "BOT BoP / World Bank BX.KLT.DINV.CD.WD",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 3.68
+        },
+        {
+          "date": "2006-01-01",
+          "value": 3.84
+        },
+        {
+          "date": "2007-01-01",
+          "value": 5.11
+        },
+        {
+          "date": "2008-01-01",
+          "value": 3.07
+        },
+        {
+          "date": "2009-01-01",
+          "value": 1.52
+        },
+        {
+          "date": "2010-01-01",
+          "value": 1.67
+        },
+        {
+          "date": "2011-01-01",
+          "value": 2.48
+        },
+        {
+          "date": "2012-01-01",
+          "value": 8.61
+        },
+        {
+          "date": "2013-01-01",
+          "value": 5.76
+        },
+        {
+          "date": "2014-01-01",
+          "value": 2.87
+        },
+        {
+          "date": "2015-01-01",
+          "value": 8.93
+        },
+        {
+          "date": "2016-01-01",
+          "value": 2.98
+        },
+        {
+          "date": "2017-01-01",
+          "value": 2.43
+        },
+        {
+          "date": "2018-01-01",
+          "value": 10.07
+        },
+        {
+          "date": "2019-01-01",
+          "value": 4.46
+        },
+        {
+          "date": "2020-01-01",
+          "value": 4.37
+        },
+        {
+          "date": "2021-01-01",
+          "value": 11.37
+        },
+        {
+          "date": "2022-01-01",
+          "value": 8.63
+        },
+        {
+          "date": "2023-01-01",
+          "value": 6.54
+        },
+        {
+          "date": "2024-01-01",
+          "value": 7.12
+        },
+        {
+          "date": "2025-01-01",
+          "value": 7.5
+        }
+      ]
+    },
+    {
+      "sector": "Investment & Capital",
+      "indicatorCode": "investment_capital_gross_fixed_capital_formation_gdp",
+      "indicatorName": "Gross fixed capital formation (% GDP)",
+      "unit": "% of GDP",
+      "frequency": "annual",
+      "sourceName": "World Bank NE.GDI.FTOT.ZS / NESDC",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 31.4
+        },
+        {
+          "date": "2006-01-01",
+          "value": 28.5
+        },
+        {
+          "date": "2007-01-01",
+          "value": 26.3
+        },
+        {
+          "date": "2008-01-01",
+          "value": 28.6
+        },
+        {
+          "date": "2009-01-01",
+          "value": 22.8
+        },
+        {
+          "date": "2010-01-01",
+          "value": 25.7
+        },
+        {
+          "date": "2011-01-01",
+          "value": 24.1
+        },
+        {
+          "date": "2012-01-01",
+          "value": 28.5
+        },
+        {
+          "date": "2013-01-01",
+          "value": 28.7
+        },
+        {
+          "date": "2014-01-01",
+          "value": 25.9
+        },
+        {
+          "date": "2015-01-01",
+          "value": 24.1
+        },
+        {
+          "date": "2016-01-01",
+          "value": 23.5
+        },
+        {
+          "date": "2017-01-01",
+          "value": 23.8
+        },
+        {
+          "date": "2018-01-01",
+          "value": 24
+        },
+        {
+          "date": "2019-01-01",
+          "value": 23.3
+        },
+        {
+          "date": "2020-01-01",
+          "value": 22.7
+        },
+        {
+          "date": "2021-01-01",
+          "value": 23.9
+        },
+        {
+          "date": "2022-01-01",
+          "value": 23.8
+        },
+        {
+          "date": "2023-01-01",
+          "value": 22.6
+        },
+        {
+          "date": "2024-01-01",
+          "value": 22.5
+        },
+        {
+          "date": "2025-01-01",
+          "value": 22.8
+        }
+      ]
+    },
+    {
+      "sector": "Investment & Capital",
+      "indicatorCode": "investment_capital_private_investment_growth",
+      "indicatorName": "Private investment growth (%)",
+      "unit": "% Annual",
+      "frequency": "annual",
+      "sourceName": "NESDC National Accounts",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 10.9
+        },
+        {
+          "date": "2006-01-01",
+          "value": 3.5
+        },
+        {
+          "date": "2007-01-01",
+          "value": 1
+        },
+        {
+          "date": "2008-01-01",
+          "value": 3.1
+        },
+        {
+          "date": "2009-01-01",
+          "value": -13
+        },
+        {
+          "date": "2010-01-01",
+          "value": 13.8
+        },
+        {
+          "date": "2011-01-01",
+          "value": 3.3
+        },
+        {
+          "date": "2012-01-01",
+          "value": 14.8
+        },
+        {
+          "date": "2013-01-01",
+          "value": 2.5
+        },
+        {
+          "date": "2014-01-01",
+          "value": -2.6
+        },
+        {
+          "date": "2015-01-01",
+          "value": -1.4
+        },
+        {
+          "date": "2016-01-01",
+          "value": 0.5
+        },
+        {
+          "date": "2017-01-01",
+          "value": 2.9
+        },
+        {
+          "date": "2018-01-01",
+          "value": 3.9
+        },
+        {
+          "date": "2019-01-01",
+          "value": 2.2
+        },
+        {
+          "date": "2020-01-01",
+          "value": -8.3
+        },
+        {
+          "date": "2021-01-01",
+          "value": 3.2
+        },
+        {
+          "date": "2022-01-01",
+          "value": 5.1
+        },
+        {
+          "date": "2023-01-01",
+          "value": 3.2
+        },
+        {
+          "date": "2024-01-01",
+          "value": 4
+        },
+        {
+          "date": "2025-01-01",
+          "value": 3.5
+        }
+      ]
+    },
+    {
+      "sector": "Labor Market",
+      "indicatorCode": "labor_market_employment_in_agriculture_total",
+      "indicatorName": "Employment in agriculture (% total)",
+      "unit": "% of Employment",
+      "frequency": "annual",
+      "sourceName": "ILO / NSO LFS",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 42.4
+        },
+        {
+          "date": "2006-01-01",
+          "value": 42.1
+        },
+        {
+          "date": "2007-01-01",
+          "value": 42.1
+        },
+        {
+          "date": "2008-01-01",
+          "value": 42.7
+        },
+        {
+          "date": "2009-01-01",
+          "value": 40.6
+        },
+        {
+          "date": "2010-01-01",
+          "value": 38.2
+        },
+        {
+          "date": "2011-01-01",
+          "value": 38.5
+        },
+        {
+          "date": "2012-01-01",
+          "value": 39.5
+        },
+        {
+          "date": "2013-01-01",
+          "value": 38.3
+        },
+        {
+          "date": "2014-01-01",
+          "value": 37.8
+        },
+        {
+          "date": "2015-01-01",
+          "value": 31.5
+        },
+        {
+          "date": "2016-01-01",
+          "value": 31.3
+        },
+        {
+          "date": "2017-01-01",
+          "value": 31.2
+        },
+        {
+          "date": "2018-01-01",
+          "value": 31.5
+        },
+        {
+          "date": "2019-01-01",
+          "value": 30.9
+        },
+        {
+          "date": "2020-01-01",
+          "value": 32.2
+        },
+        {
+          "date": "2021-01-01",
+          "value": 32
+        },
+        {
+          "date": "2022-01-01",
+          "value": 30.8
+        },
+        {
+          "date": "2023-01-01",
+          "value": 29.6
+        },
+        {
+          "date": "2024-01-01",
+          "value": 28.9
+        },
+        {
+          "date": "2025-01-01",
+          "value": 28.2
+        }
+      ]
+    },
+    {
+      "sector": "Labor Market",
+      "indicatorCode": "labor_market_employment_in_industry_total",
+      "indicatorName": "Employment in industry (% total)",
+      "unit": "% of Employment",
+      "frequency": "annual",
+      "sourceName": "ILO / NSO LFS",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 19.7
+        },
+        {
+          "date": "2006-01-01",
+          "value": 19.9
+        },
+        {
+          "date": "2007-01-01",
+          "value": 20
+        },
+        {
+          "date": "2008-01-01",
+          "value": 19.7
+        },
+        {
+          "date": "2009-01-01",
+          "value": 19.4
+        },
+        {
+          "date": "2010-01-01",
+          "value": 20.2
+        },
+        {
+          "date": "2011-01-01",
+          "value": 20.1
+        },
+        {
+          "date": "2012-01-01",
+          "value": 19.9
+        },
+        {
+          "date": "2013-01-01",
+          "value": 20.3
+        },
+        {
+          "date": "2014-01-01",
+          "value": 20.9
+        },
+        {
+          "date": "2015-01-01",
+          "value": 23.5
+        },
+        {
+          "date": "2016-01-01",
+          "value": 23.3
+        },
+        {
+          "date": "2017-01-01",
+          "value": 23.4
+        },
+        {
+          "date": "2018-01-01",
+          "value": 23.1
+        },
+        {
+          "date": "2019-01-01",
+          "value": 23
+        },
+        {
+          "date": "2020-01-01",
+          "value": 22.3
+        },
+        {
+          "date": "2021-01-01",
+          "value": 22.4
+        },
+        {
+          "date": "2022-01-01",
+          "value": 22.7
+        },
+        {
+          "date": "2023-01-01",
+          "value": 23.1
+        },
+        {
+          "date": "2024-01-01",
+          "value": 23.4
+        },
+        {
+          "date": "2025-01-01",
+          "value": 23.6
+        }
+      ]
+    },
+    {
+      "sector": "Labor Market",
+      "indicatorCode": "labor_market_employment_in_services_total",
+      "indicatorName": "Employment in services (% total)",
+      "unit": "% of Employment",
+      "frequency": "annual",
+      "sourceName": "ILO / NSO LFS",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 37.9
+        },
+        {
+          "date": "2006-01-01",
+          "value": 37.9
+        },
+        {
+          "date": "2007-01-01",
+          "value": 37.9
+        },
+        {
+          "date": "2008-01-01",
+          "value": 37.6
+        },
+        {
+          "date": "2009-01-01",
+          "value": 40.1
+        },
+        {
+          "date": "2010-01-01",
+          "value": 41.6
+        },
+        {
+          "date": "2011-01-01",
+          "value": 41.4
+        },
+        {
+          "date": "2012-01-01",
+          "value": 40.7
+        },
+        {
+          "date": "2013-01-01",
+          "value": 41.4
+        },
+        {
+          "date": "2014-01-01",
+          "value": 41.3
+        },
+        {
+          "date": "2015-01-01",
+          "value": 45
+        },
+        {
+          "date": "2016-01-01",
+          "value": 45.4
+        },
+        {
+          "date": "2017-01-01",
+          "value": 45.4
+        },
+        {
+          "date": "2018-01-01",
+          "value": 45.3
+        },
+        {
+          "date": "2019-01-01",
+          "value": 46.1
+        },
+        {
+          "date": "2020-01-01",
+          "value": 45.5
+        },
+        {
+          "date": "2021-01-01",
+          "value": 45.6
+        },
+        {
+          "date": "2022-01-01",
+          "value": 46.5
+        },
+        {
+          "date": "2023-01-01",
+          "value": 47.3
+        },
+        {
+          "date": "2024-01-01",
+          "value": 47.7
+        },
+        {
+          "date": "2025-01-01",
+          "value": 48.2
+        }
+      ]
+    },
+    {
+      "sector": "Labor Market",
+      "indicatorCode": "labor_market_labor_force_participation_rate",
+      "indicatorName": "Labor force participation rate (%)",
+      "unit": "%",
+      "frequency": "annual",
+      "sourceName": "NSO Labour Force Survey / ILO",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 72.8
+        },
+        {
+          "date": "2006-01-01",
+          "value": 72.3
+        },
+        {
+          "date": "2007-01-01",
+          "value": 72.2
+        },
+        {
+          "date": "2008-01-01",
+          "value": 72.6
+        },
+        {
+          "date": "2009-01-01",
+          "value": 71.7
+        },
+        {
+          "date": "2010-01-01",
+          "value": 71.5
+        },
+        {
+          "date": "2011-01-01",
+          "value": 71.9
+        },
+        {
+          "date": "2012-01-01",
+          "value": 71.5
+        },
+        {
+          "date": "2013-01-01",
+          "value": 70.8
+        },
+        {
+          "date": "2014-01-01",
+          "value": 70.1
+        },
+        {
+          "date": "2015-01-01",
+          "value": 68.4
+        },
+        {
+          "date": "2016-01-01",
+          "value": 68.1
+        },
+        {
+          "date": "2017-01-01",
+          "value": 67.8
+        },
+        {
+          "date": "2018-01-01",
+          "value": 67.9
+        },
+        {
+          "date": "2019-01-01",
+          "value": 67.5
+        },
+        {
+          "date": "2020-01-01",
+          "value": 66.3
+        },
+        {
+          "date": "2021-01-01",
+          "value": 66
+        },
+        {
+          "date": "2022-01-01",
+          "value": 67.4
+        },
+        {
+          "date": "2023-01-01",
+          "value": 68.1
+        },
+        {
+          "date": "2024-01-01",
+          "value": 67.8
+        },
+        {
+          "date": "2025-01-01",
+          "value": 67.5
+        }
+      ]
+    },
+    {
+      "sector": "Labor Market",
+      "indicatorCode": "labor_market_minimum_daily_wage_thb",
+      "indicatorName": "Minimum daily wage (THB)",
+      "unit": "THB / Day",
+      "frequency": "annual",
+      "sourceName": "Ministry of Labour Thailand",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 168
+        },
+        {
+          "date": "2006-01-01",
+          "value": 175
+        },
+        {
+          "date": "2007-01-01",
+          "value": 182
+        },
+        {
+          "date": "2008-01-01",
+          "value": 191
+        },
+        {
+          "date": "2009-01-01",
+          "value": 203
+        },
+        {
+          "date": "2010-01-01",
+          "value": 215
+        },
+        {
+          "date": "2011-01-01",
+          "value": 221
+        },
+        {
+          "date": "2012-01-01",
+          "value": 300
+        },
+        {
+          "date": "2013-01-01",
+          "value": 300
+        },
+        {
+          "date": "2014-01-01",
+          "value": 300
+        },
+        {
+          "date": "2015-01-01",
+          "value": 300
+        },
+        {
+          "date": "2016-01-01",
+          "value": 300
+        },
+        {
+          "date": "2017-01-01",
+          "value": 305
+        },
+        {
+          "date": "2018-01-01",
+          "value": 325
+        },
+        {
+          "date": "2019-01-01",
+          "value": 331
+        },
+        {
+          "date": "2020-01-01",
+          "value": 336
+        },
+        {
+          "date": "2021-01-01",
+          "value": 336
+        },
+        {
+          "date": "2022-01-01",
+          "value": 354
+        },
+        {
+          "date": "2023-01-01",
+          "value": 354
+        },
+        {
+          "date": "2024-01-01",
+          "value": 400
+        },
+        {
+          "date": "2025-01-01",
+          "value": 400
+        }
+      ]
+    },
+    {
+      "sector": "Labor Market",
+      "indicatorCode": "labor_market_total_employed_persons_millions",
+      "indicatorName": "Total employed persons (millions)",
+      "unit": "Millions",
+      "frequency": "annual",
+      "sourceName": "NSO Labour Force Survey",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 35.8
+        },
+        {
+          "date": "2006-01-01",
+          "value": 36.4
+        },
+        {
+          "date": "2007-01-01",
+          "value": 37
+        },
+        {
+          "date": "2008-01-01",
+          "value": 37.6
+        },
+        {
+          "date": "2009-01-01",
+          "value": 37.2
+        },
+        {
+          "date": "2010-01-01",
+          "value": 38.6
+        },
+        {
+          "date": "2011-01-01",
+          "value": 38.8
+        },
+        {
+          "date": "2012-01-01",
+          "value": 39.1
+        },
+        {
+          "date": "2013-01-01",
+          "value": 39.1
+        },
+        {
+          "date": "2014-01-01",
+          "value": 38.5
+        },
+        {
+          "date": "2015-01-01",
+          "value": 37.9
+        },
+        {
+          "date": "2016-01-01",
+          "value": 37.7
+        },
+        {
+          "date": "2017-01-01",
+          "value": 37.4
+        },
+        {
+          "date": "2018-01-01",
+          "value": 37.7
+        },
+        {
+          "date": "2019-01-01",
+          "value": 37.7
+        },
+        {
+          "date": "2020-01-01",
+          "value": 37
+        },
+        {
+          "date": "2021-01-01",
+          "value": 37.2
+        },
+        {
+          "date": "2022-01-01",
+          "value": 38
+        },
+        {
+          "date": "2023-01-01",
+          "value": 38.7
+        },
+        {
+          "date": "2024-01-01",
+          "value": 39.8
+        },
+        {
+          "date": "2025-01-01",
+          "value": 39.7
+        }
+      ]
+    },
+    {
+      "sector": "Labor Market",
+      "indicatorCode": "labor_market_unemployment_rate",
+      "indicatorName": "Unemployment rate (%)",
+      "unit": "%",
+      "frequency": "annual",
+      "sourceName": "NSO Labour Force Survey / BOT",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 1.83
+        },
+        {
+          "date": "2006-01-01",
+          "value": 1.51
+        },
+        {
+          "date": "2007-01-01",
+          "value": 1.36
+        },
+        {
+          "date": "2008-01-01",
+          "value": 1.41
+        },
+        {
+          "date": "2009-01-01",
+          "value": 1.52
+        },
+        {
+          "date": "2010-01-01",
+          "value": 1.04
+        },
+        {
+          "date": "2011-01-01",
+          "value": 0.67
+        },
+        {
+          "date": "2012-01-01",
+          "value": 0.57
+        },
+        {
+          "date": "2013-01-01",
+          "value": 0.74
+        },
+        {
+          "date": "2014-01-01",
+          "value": 0.84
+        },
+        {
+          "date": "2015-01-01",
+          "value": 0.9
+        },
+        {
+          "date": "2016-01-01",
+          "value": 1
+        },
+        {
+          "date": "2017-01-01",
+          "value": 1.19
+        },
+        {
+          "date": "2018-01-01",
+          "value": 1.05
+        },
+        {
+          "date": "2019-01-01",
+          "value": 0.98
+        },
+        {
+          "date": "2020-01-01",
+          "value": 1.69
+        },
+        {
+          "date": "2021-01-01",
+          "value": 1.93
+        },
+        {
+          "date": "2022-01-01",
+          "value": 1.35
+        },
+        {
+          "date": "2023-01-01",
+          "value": 1.03
+        },
+        {
+          "date": "2024-01-01",
+          "value": 0.9
+        },
+        {
+          "date": "2025-01-01",
+          "value": 0.8
+        }
+      ]
+    },
+    {
+      "sector": "Labor Market",
+      "indicatorCode": "labor_market_youth_unemployment_rate",
+      "indicatorName": "Youth unemployment rate (%)",
+      "unit": "%",
+      "frequency": "annual",
+      "sourceName": "ILO modeled estimate / NSO",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 6.7
+        },
+        {
+          "date": "2006-01-01",
+          "value": 5.7
+        },
+        {
+          "date": "2007-01-01",
+          "value": 5.2
+        },
+        {
+          "date": "2008-01-01",
+          "value": 5.1
+        },
+        {
+          "date": "2009-01-01",
+          "value": 5.5
+        },
+        {
+          "date": "2010-01-01",
+          "value": 4.1
+        },
+        {
+          "date": "2011-01-01",
+          "value": 3
+        },
+        {
+          "date": "2012-01-01",
+          "value": 2.8
+        },
+        {
+          "date": "2013-01-01",
+          "value": 3.2
+        },
+        {
+          "date": "2014-01-01",
+          "value": 3.2
+        },
+        {
+          "date": "2015-01-01",
+          "value": 3.7
+        },
+        {
+          "date": "2016-01-01",
+          "value": 4.2
+        },
+        {
+          "date": "2017-01-01",
+          "value": 4.5
+        },
+        {
+          "date": "2018-01-01",
+          "value": 4.5
+        },
+        {
+          "date": "2019-01-01",
+          "value": 4.6
+        },
+        {
+          "date": "2020-01-01",
+          "value": 6
+        },
+        {
+          "date": "2021-01-01",
+          "value": 6.6
+        },
+        {
+          "date": "2022-01-01",
+          "value": 5
+        },
+        {
+          "date": "2023-01-01",
+          "value": 4.2
+        },
+        {
+          "date": "2024-01-01",
+          "value": 3.8
+        },
+        {
+          "date": "2025-01-01",
+          "value": 3.5
+        }
+      ]
+    },
+    {
+      "sector": "Prices & Costs",
+      "indicatorCode": "prices_costs_cpi_inflation",
+      "indicatorName": "CPI inflation (%)",
+      "unit": "% Annual",
+      "frequency": "annual",
+      "sourceName": "BOT / MOC TPSO",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 4.5
+        },
+        {
+          "date": "2006-01-01",
+          "value": 4.7
+        },
+        {
+          "date": "2007-01-01",
+          "value": 2.2
+        },
+        {
+          "date": "2008-01-01",
+          "value": 5.5
+        },
+        {
+          "date": "2009-01-01",
+          "value": -0.8
+        },
+        {
+          "date": "2010-01-01",
+          "value": 3.3
+        },
+        {
+          "date": "2011-01-01",
+          "value": 3.8
+        },
+        {
+          "date": "2012-01-01",
+          "value": 3
+        },
+        {
+          "date": "2013-01-01",
+          "value": 2.2
+        },
+        {
+          "date": "2014-01-01",
+          "value": 1.9
+        },
+        {
+          "date": "2015-01-01",
+          "value": -0.9
+        },
+        {
+          "date": "2016-01-01",
+          "value": 0.2
+        },
+        {
+          "date": "2017-01-01",
+          "value": 0.7
+        },
+        {
+          "date": "2018-01-01",
+          "value": 1.1
+        },
+        {
+          "date": "2019-01-01",
+          "value": 0.7
+        },
+        {
+          "date": "2020-01-01",
+          "value": -0.8
+        },
+        {
+          "date": "2021-01-01",
+          "value": 1.2
+        },
+        {
+          "date": "2022-01-01",
+          "value": 6.1
+        },
+        {
+          "date": "2023-01-01",
+          "value": 1.2
+        },
+        {
+          "date": "2024-01-01",
+          "value": 0.4
+        },
+        {
+          "date": "2025-01-01",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "sector": "Prices & Costs",
+      "indicatorCode": "prices_costs_gasoline_price_thblitre_regular",
+      "indicatorName": "Gasoline price (THB/litre, regular)",
+      "unit": "THB / Litre",
+      "frequency": "annual",
+      "sourceName": "Energy Regulatory Commission (ERC) / PTT",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 20.5
+        },
+        {
+          "date": "2006-01-01",
+          "value": 22.1
+        },
+        {
+          "date": "2007-01-01",
+          "value": 23.4
+        },
+        {
+          "date": "2008-01-01",
+          "value": 33.8
+        },
+        {
+          "date": "2009-01-01",
+          "value": 26.4
+        },
+        {
+          "date": "2010-01-01",
+          "value": 29.6
+        },
+        {
+          "date": "2011-01-01",
+          "value": 33.1
+        },
+        {
+          "date": "2012-01-01",
+          "value": 38.1
+        },
+        {
+          "date": "2013-01-01",
+          "value": 39.8
+        },
+        {
+          "date": "2014-01-01",
+          "value": 38.1
+        },
+        {
+          "date": "2015-01-01",
+          "value": 30.2
+        },
+        {
+          "date": "2016-01-01",
+          "value": 25.9
+        },
+        {
+          "date": "2017-01-01",
+          "value": 27.5
+        },
+        {
+          "date": "2018-01-01",
+          "value": 30.2
+        },
+        {
+          "date": "2019-01-01",
+          "value": 26.9
+        },
+        {
+          "date": "2020-01-01",
+          "value": 23.1
+        },
+        {
+          "date": "2021-01-01",
+          "value": 25.9
+        },
+        {
+          "date": "2022-01-01",
+          "value": 33.8
+        },
+        {
+          "date": "2023-01-01",
+          "value": 34.8
+        },
+        {
+          "date": "2024-01-01",
+          "value": 31.5
+        },
+        {
+          "date": "2025-01-01",
+          "value": 34.2
+        }
+      ]
+    },
+    {
+      "sector": "Prices & Costs",
+      "indicatorCode": "prices_costs_producer_price_index_growth",
+      "indicatorName": "Producer price index growth (%)",
+      "unit": "% Annual",
+      "frequency": "annual",
+      "sourceName": "MOC Trade Policy and Strategy Office (TPSO)",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 6.9
+        },
+        {
+          "date": "2006-01-01",
+          "value": 5.8
+        },
+        {
+          "date": "2007-01-01",
+          "value": 2.4
+        },
+        {
+          "date": "2008-01-01",
+          "value": 9.8
+        },
+        {
+          "date": "2009-01-01",
+          "value": -5.7
+        },
+        {
+          "date": "2010-01-01",
+          "value": 7.6
+        },
+        {
+          "date": "2011-01-01",
+          "value": 5.9
+        },
+        {
+          "date": "2012-01-01",
+          "value": 1.9
+        },
+        {
+          "date": "2013-01-01",
+          "value": 0.7
+        },
+        {
+          "date": "2014-01-01",
+          "value": -0.1
+        },
+        {
+          "date": "2015-01-01",
+          "value": -3.5
+        },
+        {
+          "date": "2016-01-01",
+          "value": -1
+        },
+        {
+          "date": "2017-01-01",
+          "value": 2.1
+        },
+        {
+          "date": "2018-01-01",
+          "value": 2.7
+        },
+        {
+          "date": "2019-01-01",
+          "value": -0.5
+        },
+        {
+          "date": "2020-01-01",
+          "value": -2.9
+        },
+        {
+          "date": "2021-01-01",
+          "value": 4.2
+        },
+        {
+          "date": "2022-01-01",
+          "value": 7.6
+        },
+        {
+          "date": "2023-01-01",
+          "value": -1.4
+        },
+        {
+          "date": "2024-01-01",
+          "value": -1
+        },
+        {
+          "date": "2025-01-01",
+          "value": 0.8
+        }
+      ]
+    },
+    {
+      "sector": "Real Estate & Urban",
+      "indicatorCode": "real_estate_urban_new_housing_units_launched_bangkok_thousands",
+      "indicatorName": "New housing units launched (Bangkok, thousands)",
+      "unit": "Thousands",
+      "frequency": "annual",
+      "sourceName": "Agency for Real Estate Affairs (AREA)",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 68.2
+        },
+        {
+          "date": "2006-01-01",
+          "value": 74.1
+        },
+        {
+          "date": "2007-01-01",
+          "value": 79.3
+        },
+        {
+          "date": "2008-01-01",
+          "value": 65.4
+        },
+        {
+          "date": "2009-01-01",
+          "value": 54.2
+        },
+        {
+          "date": "2010-01-01",
+          "value": 72.8
+        },
+        {
+          "date": "2011-01-01",
+          "value": 64.3
+        },
+        {
+          "date": "2012-01-01",
+          "value": 96.5
+        },
+        {
+          "date": "2013-01-01",
+          "value": 112.4
+        },
+        {
+          "date": "2014-01-01",
+          "value": 78.3
+        },
+        {
+          "date": "2015-01-01",
+          "value": 68.4
+        },
+        {
+          "date": "2016-01-01",
+          "value": 58.2
+        },
+        {
+          "date": "2017-01-01",
+          "value": 63.1
+        },
+        {
+          "date": "2018-01-01",
+          "value": 80.4
+        },
+        {
+          "date": "2019-01-01",
+          "value": 74.6
+        },
+        {
+          "date": "2020-01-01",
+          "value": 38.1
+        },
+        {
+          "date": "2021-01-01",
+          "value": 42.3
+        },
+        {
+          "date": "2022-01-01",
+          "value": 55.8
+        },
+        {
+          "date": "2023-01-01",
+          "value": 61.2
+        },
+        {
+          "date": "2024-01-01",
+          "value": 57.4
+        },
+        {
+          "date": "2025-01-01",
+          "value": 53.8
+        }
+      ]
+    },
+    {
+      "sector": "Real Estate & Urban",
+      "indicatorCode": "real_estate_urban_residential_property_price_index_2015100",
+      "indicatorName": "Residential property price index (2015=100)",
+      "unit": "Index (2015=100)",
+      "frequency": "annual",
+      "sourceName": "BOT Real Estate Price Index",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 71.2
+        },
+        {
+          "date": "2006-01-01",
+          "value": 73.8
+        },
+        {
+          "date": "2007-01-01",
+          "value": 76.4
+        },
+        {
+          "date": "2008-01-01",
+          "value": 79.1
+        },
+        {
+          "date": "2009-01-01",
+          "value": 80.3
+        },
+        {
+          "date": "2010-01-01",
+          "value": 85.1
+        },
+        {
+          "date": "2011-01-01",
+          "value": 88.4
+        },
+        {
+          "date": "2012-01-01",
+          "value": 93.2
+        },
+        {
+          "date": "2013-01-01",
+          "value": 97.8
+        },
+        {
+          "date": "2014-01-01",
+          "value": 99.1
+        },
+        {
+          "date": "2015-01-01",
+          "value": 100
+        },
+        {
+          "date": "2016-01-01",
+          "value": 102.8
+        },
+        {
+          "date": "2017-01-01",
+          "value": 107.4
+        },
+        {
+          "date": "2018-01-01",
+          "value": 113.2
+        },
+        {
+          "date": "2019-01-01",
+          "value": 118.6
+        },
+        {
+          "date": "2020-01-01",
+          "value": 117.9
+        },
+        {
+          "date": "2021-01-01",
+          "value": 118.4
+        },
+        {
+          "date": "2022-01-01",
+          "value": 122.3
+        },
+        {
+          "date": "2023-01-01",
+          "value": 127.8
+        },
+        {
+          "date": "2024-01-01",
+          "value": 130.5
+        },
+        {
+          "date": "2025-01-01",
+          "value": 132.1
+        }
+      ]
+    },
+    {
+      "sector": "Real Estate & Urban",
+      "indicatorCode": "real_estate_urban_urban_population_total",
+      "indicatorName": "Urban population (% total)",
+      "unit": "% Total Population",
+      "frequency": "annual",
+      "sourceName": "World Bank SP.URB.TOTL.IN.ZS / UN",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 31.1
+        },
+        {
+          "date": "2006-01-01",
+          "value": 31.5
+        },
+        {
+          "date": "2007-01-01",
+          "value": 31.9
+        },
+        {
+          "date": "2008-01-01",
+          "value": 32.4
+        },
+        {
+          "date": "2009-01-01",
+          "value": 32.9
+        },
+        {
+          "date": "2010-01-01",
+          "value": 33.3
+        },
+        {
+          "date": "2011-01-01",
+          "value": 33.8
+        },
+        {
+          "date": "2012-01-01",
+          "value": 34.4
+        },
+        {
+          "date": "2013-01-01",
+          "value": 35
+        },
+        {
+          "date": "2014-01-01",
+          "value": 35.9
+        },
+        {
+          "date": "2015-01-01",
+          "value": 36.3
+        },
+        {
+          "date": "2016-01-01",
+          "value": 36.8
+        },
+        {
+          "date": "2017-01-01",
+          "value": 37.2
+        },
+        {
+          "date": "2018-01-01",
+          "value": 37.6
+        },
+        {
+          "date": "2019-01-01",
+          "value": 38
+        },
+        {
+          "date": "2020-01-01",
+          "value": 51.4
+        },
+        {
+          "date": "2021-01-01",
+          "value": 52.2
+        },
+        {
+          "date": "2022-01-01",
+          "value": 52.9
+        },
+        {
+          "date": "2023-01-01",
+          "value": 53.5
+        },
+        {
+          "date": "2024-01-01",
+          "value": 54.1
+        },
+        {
+          "date": "2025-01-01",
+          "value": 54.7
+        }
+      ]
+    },
+    {
+      "sector": "Technology & Digital",
+      "indicatorCode": "technology_digital_digital_payment_transactions_billion_thb",
+      "indicatorName": "Digital payment transactions (billion THB)",
+      "unit": "Billion THB",
+      "frequency": "annual",
+      "sourceName": "BOT Payment Systems Report",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 12.4
+        },
+        {
+          "date": "2006-01-01",
+          "value": 15.2
+        },
+        {
+          "date": "2007-01-01",
+          "value": 18.9
+        },
+        {
+          "date": "2008-01-01",
+          "value": 22.4
+        },
+        {
+          "date": "2009-01-01",
+          "value": 25.1
+        },
+        {
+          "date": "2010-01-01",
+          "value": 32.8
+        },
+        {
+          "date": "2011-01-01",
+          "value": 38.4
+        },
+        {
+          "date": "2012-01-01",
+          "value": 48.2
+        },
+        {
+          "date": "2013-01-01",
+          "value": 58.9
+        },
+        {
+          "date": "2014-01-01",
+          "value": 72.3
+        },
+        {
+          "date": "2015-01-01",
+          "value": 91.4
+        },
+        {
+          "date": "2016-01-01",
+          "value": 128.6
+        },
+        {
+          "date": "2017-01-01",
+          "value": 185.4
+        },
+        {
+          "date": "2018-01-01",
+          "value": 272.1
+        },
+        {
+          "date": "2019-01-01",
+          "value": 358.4
+        },
+        {
+          "date": "2020-01-01",
+          "value": 512.8
+        },
+        {
+          "date": "2021-01-01",
+          "value": 698.3
+        },
+        {
+          "date": "2022-01-01",
+          "value": 921.5
+        },
+        {
+          "date": "2023-01-01",
+          "value": 1142.3
+        },
+        {
+          "date": "2024-01-01",
+          "value": 1384.7
+        },
+        {
+          "date": "2025-01-01",
+          "value": 1580.2
+        }
+      ]
+    },
+    {
+      "sector": "Technology & Digital",
+      "indicatorCode": "technology_digital_e_commerce_market_value_usd_bn",
+      "indicatorName": "E-commerce market value (USD bn)",
+      "unit": "USD Billion",
+      "frequency": "annual",
+      "sourceName": "ETDA / Google-Temasek-Bain",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 0.3
+        },
+        {
+          "date": "2006-01-01",
+          "value": 0.5
+        },
+        {
+          "date": "2007-01-01",
+          "value": 0.8
+        },
+        {
+          "date": "2008-01-01",
+          "value": 1.2
+        },
+        {
+          "date": "2009-01-01",
+          "value": 1.5
+        },
+        {
+          "date": "2010-01-01",
+          "value": 2.1
+        },
+        {
+          "date": "2011-01-01",
+          "value": 2.6
+        },
+        {
+          "date": "2012-01-01",
+          "value": 3.5
+        },
+        {
+          "date": "2013-01-01",
+          "value": 4.2
+        },
+        {
+          "date": "2014-01-01",
+          "value": 5.1
+        },
+        {
+          "date": "2015-01-01",
+          "value": 6.4
+        },
+        {
+          "date": "2016-01-01",
+          "value": 7.8
+        },
+        {
+          "date": "2017-01-01",
+          "value": 9.3
+        },
+        {
+          "date": "2018-01-01",
+          "value": 11.8
+        },
+        {
+          "date": "2019-01-01",
+          "value": 14.6
+        },
+        {
+          "date": "2020-01-01",
+          "value": 21
+        },
+        {
+          "date": "2021-01-01",
+          "value": 23.3
+        },
+        {
+          "date": "2022-01-01",
+          "value": 28.5
+        },
+        {
+          "date": "2023-01-01",
+          "value": 33.7
+        },
+        {
+          "date": "2024-01-01",
+          "value": 38.8
+        },
+        {
+          "date": "2025-01-01",
+          "value": 43.2
+        }
+      ]
+    },
+    {
+      "sector": "Technology & Digital",
+      "indicatorCode": "technology_digital_internet_users_population",
+      "indicatorName": "Internet users (% population)",
+      "unit": "% Population",
+      "frequency": "annual",
+      "sourceName": "World Bank IT.NET.USER.ZS / NECTEC",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 15
+        },
+        {
+          "date": "2006-01-01",
+          "value": 17.2
+        },
+        {
+          "date": "2007-01-01",
+          "value": 20.5
+        },
+        {
+          "date": "2008-01-01",
+          "value": 22.4
+        },
+        {
+          "date": "2009-01-01",
+          "value": 25.8
+        },
+        {
+          "date": "2010-01-01",
+          "value": 28.2
+        },
+        {
+          "date": "2011-01-01",
+          "value": 30.6
+        },
+        {
+          "date": "2012-01-01",
+          "value": 32.1
+        },
+        {
+          "date": "2013-01-01",
+          "value": 36.2
+        },
+        {
+          "date": "2014-01-01",
+          "value": 42.6
+        },
+        {
+          "date": "2015-01-01",
+          "value": 52.9
+        },
+        {
+          "date": "2016-01-01",
+          "value": 56.8
+        },
+        {
+          "date": "2017-01-01",
+          "value": 67.5
+        },
+        {
+          "date": "2018-01-01",
+          "value": 72.1
+        },
+        {
+          "date": "2019-01-01",
+          "value": 75.5
+        },
+        {
+          "date": "2020-01-01",
+          "value": 78
+        },
+        {
+          "date": "2021-01-01",
+          "value": 80.8
+        },
+        {
+          "date": "2022-01-01",
+          "value": 83.1
+        },
+        {
+          "date": "2023-01-01",
+          "value": 85.4
+        },
+        {
+          "date": "2024-01-01",
+          "value": 86.8
+        },
+        {
+          "date": "2025-01-01",
+          "value": 87.9
+        }
+      ]
+    },
+    {
+      "sector": "Technology & Digital",
+      "indicatorCode": "technology_digital_mobile_subscriptions_per_100_people",
+      "indicatorName": "Mobile subscriptions (per 100 people)",
+      "unit": "Per 100 People",
+      "frequency": "annual",
+      "sourceName": "World Bank IT.CEL.SETS.P2 / NBTC",
+      "isDemo": false,
+      "points": [
+        {
+          "date": "2005-01-01",
+          "value": 44.8
+        },
+        {
+          "date": "2006-01-01",
+          "value": 60.9
+        },
+        {
+          "date": "2007-01-01",
+          "value": 81.8
+        },
+        {
+          "date": "2008-01-01",
+          "value": 98.8
+        },
+        {
+          "date": "2009-01-01",
+          "value": 101
+        },
+        {
+          "date": "2010-01-01",
+          "value": 109.5
+        },
+        {
+          "date": "2011-01-01",
+          "value": 119
+        },
+        {
+          "date": "2012-01-01",
+          "value": 131.7
+        },
+        {
+          "date": "2013-01-01",
+          "value": 143
+        },
+        {
+          "date": "2014-01-01",
+          "value": 145.9
+        },
+        {
+          "date": "2015-01-01",
+          "value": 148.3
+        },
+        {
+          "date": "2016-01-01",
+          "value": 174.9
+        },
+        {
+          "date": "2017-01-01",
+          "value": 179.6
+        },
+        {
+          "date": "2018-01-01",
+          "value": 185.4
+        },
+        {
+          "date": "2019-01-01",
+          "value": 185
+        },
+        {
+          "date": "2020-01-01",
+          "value": 184.3
+        },
+        {
+          "date": "2021-01-01",
+          "value": 182.8
+        },
+        {
+          "date": "2022-01-01",
+          "value": 186.5
+        },
+        {
+          "date": "2023-01-01",
+          "value": 188.4
+        },
+        {
+          "date": "2024-01-01",
+          "value": 189.2
+        },
+        {
+          "date": "2025-01-01",
+          "value": 190.1
+        }
+      ]
+    }
+  ]
+}
